@@ -37,7 +37,7 @@ Steps once the technologies are installed:
 - Run the "npm run install" script in both project directories (client and server). This will install the dependencies of both scopes.
 - Test that everything works correctly by opening two terminals in your IDE. Run the "npm run dev" script in each one being inside the corresponding directory and observe if the console output is correct.
 - Through an HTTP request manager, make a POST request to the route you will find in the file "/server/src/employees/routes/newEmployee.route.ts" with the information of the user you want to create. IT IS IMPORTANT THAT THE ROLE OF THE CREATED USER IS "Director" SO THAT THE APPLICATION DOES NOT RETURN YOU TO THE LOGIN SCREEN.
-- In the browser, visit the route http://localhost:3000/ and enter the login credentials.
+- In the browser, visit the route [http://localhost:3000/](http://localhost:3000/) and enter the login credentials.
 
 ## Main Features:
 

@@ -37,7 +37,7 @@ Pasos una vez instaladas las tecnologías:
 - Lanza el script "npm run install" en ambos directorios del proyecto (cliente y servidor). Esto instalará las dependencias de ambos ámbitos.
 - Prueba que todo funcione correctamente abriendo dos terminales en tu IDE. Lanza el script "npm run dev" en cada una estando dentro del directorio correspondiente y observa si la salida por consola es correcta.
 - Mediante un gestor de solicitudes HTTP realiza una petición POST a la ruta que encontrarás en el archivo "/server/src/employees/routes/newEmployee.route.ts" con la información del usuario que quieras crear. ES IMPORTANTE QUE EL ROL DEL USUARIO CREADO SEA "Director" PARA QUE LA APLICACIÓN NO TE RETORNE AL INICIAR SESIÓN.
-- En el navegador visita la ruta http://localhost:3000/ e introduce las credenciales de inicio de sesión.
+- En el navegador visita la ruta [http://localhost:3000/](http://localhost:3000/) e introduce las credenciales de inicio de sesión.
 
 ## Funcionalidades principales:
 
