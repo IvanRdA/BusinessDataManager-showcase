@@ -12,10 +12,6 @@ import { loginRoute } from './employees/routes/login.route'
 import { newEmployeeRoute } from './employees/routes/newEmployee.route'
 import { deleteEmployee } from './employees/routes/deleteEmployee.route'
 import { updateEmployee } from './employees/routes/updateEmployee.route'
-import { getAllSales, getSingleSale } from './sales/routes/getSales.route'
-import { newSale } from './sales/routes/newSale.route'
-import { updateSale } from './sales/routes/updateSale.route'
-import { deleteSale } from './sales/routes/deleteSale.route'
 import { verifyTokenRoute } from './globals/routes/verifyToken.route'
 
 const port = process.env.PORT ?? 8080
@@ -38,12 +34,6 @@ app.use(getSingleEmployee)
 app.use(newEmployeeRoute)
 app.use(deleteEmployee)
 app.use(updateEmployee)
-// SALES
-app.use(getAllSales)
-app.use(getSingleSale)
-app.use(newSale)
-app.use(updateSale)
-app.use(deleteSale)
 
 app.use(verifyTokenRoute)
 
