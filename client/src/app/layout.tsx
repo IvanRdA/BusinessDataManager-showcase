@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "@/styles/globals.css";
 
 export const metadata: Metadata = {
-  title: "La Poma - Data manager",
-  description: "Schedule and employee manager for La Poma Restaurant",
+  title: "Business Data manager",
+  description: "Schedule and employee manager for businesses.",
 };
 
 export default function RootLayout({

@@ -37,46 +37,6 @@ export default function EmployeeNavbar() {
           />
           <li className="hover:text-white">Vacaciones</li>
         </Link>
-        <Link href="/empleados/fnr">
-          <Image
-            src="/icons/olive/fnr.svg"
-            alt="FNR"
-            title="Ir FNR"
-            height={24}
-            width={24}
-          />
-          <li className="hover:text-white">FNR</li>
-        </Link>
-        <Link href="/empleados/incidencias-nomina">
-          <Image
-            src="/icons/olive/extraTime.svg"
-            alt="Incidencias de nómina"
-            title="Ir a incidencias de nómina"
-            height={24}
-            width={24}
-          />
-          <li className="hover:text-white">Incidencias nómina</li>
-        </Link>
-        <Link href="/empleados/incidencias-laboral">
-          <Image
-            src="/icons/olive/incidences.svg"
-            alt="Incidencias laborales"
-            title="Ir a incidencias laborales"
-            height={24}
-            width={24}
-          />
-          <li className="hover:text-white">Incidencias laborales</li>
-        </Link>
-        <Link href="/empleados/informes">
-          <Image
-            src="/icons/olive/reports.svg"
-            alt="Informes de empleado"
-            title="Ir a informes de empleado"
-            height={24}
-            width={24}
-          />
-          <li className="hover:text-white">Informes</li>
-        </Link>
       </ul>
     </nav>
   );
